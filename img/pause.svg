@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24"
+     width="48"
+     height="48"
+     aria-label="Pause Button">
+
+    <!-- Black circular background -->
+    <circle cx="12" cy="12" r="10" fill="black"/>
+
+    <!-- White pause bars -->
+    <rect x="7.5"
+          y="6.5"
+          width="2.8"
+          height="11"
+          rx="1"
+          fill="white"/>
+
+    <rect x="13.7"
+          y="6.5"
+          width="2.8"
+          height="11"
+          rx="1"
+          fill="white"/>
+</svg>

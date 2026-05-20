@@ -1,0 +1,56 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.item_align{
+    align-items: center;
+}
+.rounded{
+    border-radius: 9px;
+}
+
+/* Dark themed scrollbar for your Spotify-style website */
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 12px;              /* vertical scrollbar width */
+    height: 12px;             /* horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;      /* same as your site background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #535353;      /* dark gray thumb */
+    border-radius: 10px;
+    border: 2px solid #121212; /* creates padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;      /* lighter on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #ffffff;      /* white while dragging */
+}
+
+::-webkit-scrollbar-corner {
+    background: #121212;
+}
+
+/* Firefox support */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #535353 #121212;
+}
