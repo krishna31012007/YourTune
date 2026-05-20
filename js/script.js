@@ -82,7 +82,7 @@ async function getSongs(folder) {
         // Add song item
         songUL.innerHTML += `
             <li data-file="${fullName}">
-                <img class="invert" style="width: 36px;" src="img/music.svg" alt="">
+                <img class="invert" style="width: 36px;" src="./${currFolder}/cover.jpeg" alt="">
                 <div class="info">
                     <div>${displayName}</div>
                 </div>
